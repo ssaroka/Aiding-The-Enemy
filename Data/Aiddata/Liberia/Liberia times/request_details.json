@@ -1,0 +1,82 @@
+{
+    "status": 2, 
+    "raster_data": [
+        {
+            "files": [
+                {
+                    "path": "", 
+                    "name": "accessibility_to_cities_2015_v1.0_none", 
+                    "display": "none"
+                }
+            ], 
+            "name": "accessibility_to_cities_2015_v1.0", 
+            "custom_name": "Accessibility to Cities (2015)", 
+            "title": "Accessibility to Cities (2015)", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/accessibility_to_cities_2015_v1.0/accessibility_to_cities_2015_v1.0.tif", 
+            "temporal_type": "None", 
+            "options": {
+                "extract_types": [
+                    "mean", 
+                    "max", 
+                    "min"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "access_50k.tif", 
+                    "name": "access_50k_none", 
+                    "display": "none"
+                }
+            ], 
+            "name": "access_50k", 
+            "custom_name": "Travel time to major cities", 
+            "title": "Travel time to major cities", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/accessibility_map", 
+            "temporal_type": "None", 
+            "options": {
+                "extract_types": [
+                    "mean", 
+                    "max", 
+                    "min"
+                ]
+            }
+        }
+    ], 
+    "custom_name": "Liberia times", 
+    "release_data": [], 
+    "priority": 0, 
+    "info": [
+        "<b><font size=4>CSV Column Names</font></b><br/>Each CSV will contain a column labeled \"asdf_id\" which has values for each feature that are unique (within that boundary dataset), one or more columns for your extract data, followed by the original source attributes for the boundary file (e.g., from GADM)<br/><br/>The standard format for extract data column names is a three part string delimited by periods (.)<br/>&nbsp;&nbsp;&nbsp;&nbsp;Example:  <b>&#60;dataset&#62;.&#60;filter&#62;.&#60;method&#62;</b>  =  gpw_v4_count<b>.</b>2010<b>.</b>sum<br/><br/>For more details, please read the documentation pdf accompanying your request results.<br/>"
+    ], 
+    "boundary": {
+        "path": "/sciclone/aiddata10/REU/geo/data/boundaries/geoboundaries/v4/LBR_ADM1/LBR_ADM1.geojson", 
+        "description": "GeoBoundaries boundary file for ADM1 in Liberia.", 
+        "group": "lbr_gb_v4", 
+        "name": "lbr_adm1_gb_v4", 
+        "title": "Liberia ADM1 - GeoBoundaries v4"
+    }, 
+    "_id": "6424a0317696e501222288b2", 
+    "email": "ssaroka@ad.unc.edu", 
+    "stage": [
+        {
+            "name": "submitted", 
+            "time": 1680121905
+        }, 
+        {
+            "name": "prepared", 
+            "time": 1680121767
+        }, 
+        {
+            "name": "processed", 
+            "time": 1680121767
+        }, 
+        {
+            "name": "completed", 
+            "time": 0
+        }
+    ]
+}

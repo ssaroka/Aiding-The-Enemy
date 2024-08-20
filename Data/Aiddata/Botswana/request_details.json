@@ -1,0 +1,509 @@
+{
+    "status": 2, 
+    "raster_data": [
+        {
+            "files": [
+                {
+                    "path": "ucdp_deaths_1989.tif", 
+                    "name": "ucdp_deaths_171_1989", 
+                    "display": "1989"
+                }, 
+                {
+                    "path": "ucdp_deaths_1990.tif", 
+                    "name": "ucdp_deaths_171_1990", 
+                    "display": "1990"
+                }, 
+                {
+                    "path": "ucdp_deaths_1991.tif", 
+                    "name": "ucdp_deaths_171_1991", 
+                    "display": "1991"
+                }, 
+                {
+                    "path": "ucdp_deaths_1992.tif", 
+                    "name": "ucdp_deaths_171_1992", 
+                    "display": "1992"
+                }, 
+                {
+                    "path": "ucdp_deaths_1993.tif", 
+                    "name": "ucdp_deaths_171_1993", 
+                    "display": "1993"
+                }, 
+                {
+                    "path": "ucdp_deaths_1994.tif", 
+                    "name": "ucdp_deaths_171_1994", 
+                    "display": "1994"
+                }, 
+                {
+                    "path": "ucdp_deaths_1995.tif", 
+                    "name": "ucdp_deaths_171_1995", 
+                    "display": "1995"
+                }, 
+                {
+                    "path": "ucdp_deaths_1996.tif", 
+                    "name": "ucdp_deaths_171_1996", 
+                    "display": "1996"
+                }, 
+                {
+                    "path": "ucdp_deaths_1997.tif", 
+                    "name": "ucdp_deaths_171_1997", 
+                    "display": "1997"
+                }, 
+                {
+                    "path": "ucdp_deaths_1998.tif", 
+                    "name": "ucdp_deaths_171_1998", 
+                    "display": "1998"
+                }, 
+                {
+                    "path": "ucdp_deaths_1999.tif", 
+                    "name": "ucdp_deaths_171_1999", 
+                    "display": "1999"
+                }, 
+                {
+                    "path": "ucdp_deaths_2000.tif", 
+                    "name": "ucdp_deaths_171_2000", 
+                    "display": "2000"
+                }, 
+                {
+                    "path": "ucdp_deaths_2001.tif", 
+                    "name": "ucdp_deaths_171_2001", 
+                    "display": "2001"
+                }, 
+                {
+                    "path": "ucdp_deaths_2002.tif", 
+                    "name": "ucdp_deaths_171_2002", 
+                    "display": "2002"
+                }, 
+                {
+                    "path": "ucdp_deaths_2003.tif", 
+                    "name": "ucdp_deaths_171_2003", 
+                    "display": "2003"
+                }, 
+                {
+                    "path": "ucdp_deaths_2004.tif", 
+                    "name": "ucdp_deaths_171_2004", 
+                    "display": "2004"
+                }, 
+                {
+                    "path": "ucdp_deaths_2005.tif", 
+                    "name": "ucdp_deaths_171_2005", 
+                    "display": "2005"
+                }, 
+                {
+                    "path": "ucdp_deaths_2006.tif", 
+                    "name": "ucdp_deaths_171_2006", 
+                    "display": "2006"
+                }, 
+                {
+                    "path": "ucdp_deaths_2007.tif", 
+                    "name": "ucdp_deaths_171_2007", 
+                    "display": "2007"
+                }, 
+                {
+                    "path": "ucdp_deaths_2008.tif", 
+                    "name": "ucdp_deaths_171_2008", 
+                    "display": "2008"
+                }, 
+                {
+                    "path": "ucdp_deaths_2009.tif", 
+                    "name": "ucdp_deaths_171_2009", 
+                    "display": "2009"
+                }, 
+                {
+                    "path": "ucdp_deaths_2010.tif", 
+                    "name": "ucdp_deaths_171_2010", 
+                    "display": "2010"
+                }, 
+                {
+                    "path": "ucdp_deaths_2011.tif", 
+                    "name": "ucdp_deaths_171_2011", 
+                    "display": "2011"
+                }, 
+                {
+                    "path": "ucdp_deaths_2012.tif", 
+                    "name": "ucdp_deaths_171_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "ucdp_deaths_2013.tif", 
+                    "name": "ucdp_deaths_171_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "ucdp_deaths_2014.tif", 
+                    "name": "ucdp_deaths_171_2014", 
+                    "display": "2014"
+                }, 
+                {
+                    "path": "ucdp_deaths_2015.tif", 
+                    "name": "ucdp_deaths_171_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "ucdp_deaths_2016.tif", 
+                    "name": "ucdp_deaths_171_2016", 
+                    "display": "2016"
+                }
+            ], 
+            "name": "ucdp_deaths_171", 
+            "custom_name": "UCDP Conflict Deaths", 
+            "title": "UCDP Conflict Deaths", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/ucdp/ged_global_171", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "sum"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "ppp_2000_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2000", 
+                    "display": "2000"
+                }, 
+                {
+                    "path": "ppp_2001_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2001", 
+                    "display": "2001"
+                }, 
+                {
+                    "path": "ppp_2003_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2003", 
+                    "display": "2003"
+                }, 
+                {
+                    "path": "ppp_2002_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2002", 
+                    "display": "2002"
+                }, 
+                {
+                    "path": "ppp_2005_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2005", 
+                    "display": "2005"
+                }, 
+                {
+                    "path": "ppp_2004_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2004", 
+                    "display": "2004"
+                }, 
+                {
+                    "path": "ppp_2006_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2006", 
+                    "display": "2006"
+                }, 
+                {
+                    "path": "ppp_2008_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2008", 
+                    "display": "2008"
+                }, 
+                {
+                    "path": "ppp_2007_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2007", 
+                    "display": "2007"
+                }, 
+                {
+                    "path": "ppp_2009_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2009", 
+                    "display": "2009"
+                }, 
+                {
+                    "path": "ppp_2010_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2010", 
+                    "display": "2010"
+                }, 
+                {
+                    "path": "ppp_2011_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2011", 
+                    "display": "2011"
+                }, 
+                {
+                    "path": "ppp_2012_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "ppp_2013_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "ppp_2014_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2014", 
+                    "display": "2014"
+                }, 
+                {
+                    "path": "ppp_2015_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "ppp_2016_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2016", 
+                    "display": "2016"
+                }, 
+                {
+                    "path": "ppp_2017_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "ppp_2018_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2018", 
+                    "display": "2018"
+                }, 
+                {
+                    "path": "ppp_2019_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2019", 
+                    "display": "2019"
+                }, 
+                {
+                    "path": "ppp_2020_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2020", 
+                    "display": "2020"
+                }
+            ], 
+            "name": "worldpop_pop_count_1km_mosaic", 
+            "custom_name": "WorldPop Population Count", 
+            "title": "WorldPop Population Count", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/worldpop/population_counts/1km_mosaic", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "sum"
+                ]
+            }
+        }
+    ], 
+    "custom_name": "Botswana", 
+    "release_data": [
+        {
+            "hash": "bf1de3fec9ff1f81bb849b4581a4da2e6ea3a513", 
+            "filters": {
+                "transactions_start_year": [
+                    1995
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "f99c939c26324222c24000b226ce4f4860f86725", 
+            "filters": {
+                "transactions_start_year": [
+                    1997
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (1)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "485401a762c253f2058d1d5bd783ad065638ea9c", 
+            "filters": {
+                "transactions_start_year": [
+                    1998
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (2)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "c2de8df84e8701dc98fe2b5f034c7bfd22e14dfb", 
+            "filters": {
+                "transactions_start_year": [
+                    2000
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (3)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "034e602184525ada5b850c34a57cabaed175203d", 
+            "filters": {
+                "transactions_start_year": [
+                    2003
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (4)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "61424005f4d2840217aa41703324d6d59589894a", 
+            "filters": {
+                "transactions_start_year": [
+                    2004
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (5)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "381e47f18e2cdde150266523541816492414b676", 
+            "filters": {
+                "transactions_start_year": [
+                    2005
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (6)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "be4c26122c94927b0861ea8f536b8a0ebba43809", 
+            "filters": {
+                "transactions_start_year": [
+                    2006
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (7)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "993244c7eee8db2ea14f4c586d9f2f292e6f4509", 
+            "filters": {
+                "transactions_start_year": [
+                    2008
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (8)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "0cf8a0f3e0a61b43672d0a68c4542f117b7340be", 
+            "filters": {
+                "transactions_start_year": [
+                    2009
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (9)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "c3898aa24192e60c0f3537c6c1c988c2a1e20a5e", 
+            "filters": {
+                "transactions_start_year": [
+                    2010
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (10)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "e9437aea82357c7978f0a80a20e1ef86428ecc79", 
+            "filters": {
+                "transactions_start_year": [
+                    2011
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (11)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "56d6ad12e6f3a577b569f89e1905ec69d5050e2f", 
+            "filters": {
+                "transactions_start_year": [
+                    2012
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (12)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "a8d2793b2079f14538bd78947ab94647be2798c7", 
+            "filters": {
+                "transactions_start_year": [
+                    2013
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (13)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }, 
+        {
+            "hash": "d56e9447ada4f782f9b7afc3e0668f72ed88a15c", 
+            "filters": {
+                "transactions_start_year": [
+                    2014
+                ], 
+                "ad_sector_names": [
+                    "All"
+                ]
+            }, 
+            "custom_name": "World Bank Geocoded Aid Data v1.4.2 (14)", 
+            "dataset": "worldbank_geocodedresearchrelease_level1_v1_4_2"
+        }
+    ], 
+    "priority": 0, 
+    "info": [
+        "<b><font size=4>CSV Column Names</font></b><br/>Each CSV will contain a column labeled \"asdf_id\" which has values for each feature that are unique (within that boundary dataset), one or more columns for your extract data, followed by the original source attributes for the boundary file (e.g., from GADM)<br/><br/>The standard format for extract data column names is a three part string delimited by periods (.)<br/>&nbsp;&nbsp;&nbsp;&nbsp;Example:  <b>&#60;dataset&#62;.&#60;filter&#62;.&#60;method&#62;</b>  =  gpw_v4_count<b>.</b>2010<b>.</b>sum<br/><br/>For more details, please read the documentation pdf accompanying your request results.<br/>"
+    ], 
+    "boundary": {
+        "path": "/sciclone/aiddata10/REU/geo/data/boundaries/geoboundaries/v4/BWA_ADM1/BWA_ADM1.geojson", 
+        "description": "GeoBoundaries boundary file for ADM1 in Botswana.", 
+        "group": "bwa_gb_v4", 
+        "name": "bwa_adm1_gb_v4", 
+        "title": "Botswana ADM1 - GeoBoundaries v4"
+    }, 
+    "_id": "639b5e06bea77353f22e2282", 
+    "email": "ssaroka@ad.unc.edu", 
+    "stage": [
+        {
+            "name": "submitted", 
+            "time": 1671126534
+        }, 
+        {
+            "name": "prepared", 
+            "time": 1671126328
+        }, 
+        {
+            "name": "processed", 
+            "time": 1671131277
+        }, 
+        {
+            "name": "completed", 
+            "time": 0
+        }
+    ]
+}
