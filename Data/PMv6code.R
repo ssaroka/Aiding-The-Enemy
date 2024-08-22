@@ -29,28 +29,7 @@ library(ggplot2)
 library(ggeffects)
 library(kableExtra) #for descriptive stats table. note this masks dplyr:group_rows
 
-##################################
-##custom fix for Stargazer is.na>1 error from https://gist.github.com/alexeyknorre/b0780836f4cec04d41a863a683f91b53
-# for background see https://www.reddit.com/r/rstats/comments/ucmtdn/issue_with_stargazer_package_after_update_to_r_420/
-# Unload stargazer if loaded
-#detach("package:stargazer",unload=T)
-# Delete it
-#remove.packages("stargazer")
-# Download the source
-#download.file("https://cran.r-project.org/src/contrib/stargazer_5.2.3.tar.gz", destfile = "stargazer_5.2.3.tar.gz")
-# Unpack
-#untar("stargazer_5.2.3.tar.gz")
-# Read the sourcefile with .inside.bracket fun
-#stargazer_src <- readLines("stargazer/R/stargazer-internal.R")
-# Move the length check 5 lines up so it precedes is.na(.)
-#stargazer_src[1990] <- stargazer_src[1995]
-#stargazer_src[1995] <- ""
-# Save back
-#writeLines(stargazer_src, con="stargazer/R/stargazer-internal.R")
-# Compile and install the patched package
-#install.packages("stargazer", repos = NULL, type="source")
-#library(stargazer)
-#################################### Stargazer tables (not updated)
+
 
 #### Preliminary Read-Ins
 ### Polity 5 (ignore warnings) (necessary for mergers)
@@ -1194,6 +1173,30 @@ plot_model(quasi_nopop_tot_00, type = "pred", terms = c("aidchangemil", "citytim
 #no discernable impact. Plot not weird, at least.
 
 #table 1 is desc stats
+
+##################################
+##custom fix for Stargazer is.na>1 error from https://gist.github.com/alexeyknorre/b0780836f4cec04d41a863a683f91b53
+# for background see https://www.reddit.com/r/rstats/comments/ucmtdn/issue_with_stargazer_package_after_update_to_r_420/
+# Unload stargazer if loaded
+#detach("package:stargazer",unload=T)
+# Delete it
+#remove.packages("stargazer")
+# Download the source
+#download.file("https://cran.r-project.org/src/contrib/stargazer_5.2.3.tar.gz", destfile = "stargazer_5.2.3.tar.gz")
+# Unpack
+#untar("stargazer_5.2.3.tar.gz")
+# Read the sourcefile with .inside.bracket fun
+#stargazer_src <- readLines("stargazer/R/stargazer-internal.R")
+# Move the length check 5 lines up so it precedes is.na(.)
+#stargazer_src[1990] <- stargazer_src[1995]
+#stargazer_src[1995] <- ""
+# Save back
+#writeLines(stargazer_src, con="stargazer/R/stargazer-internal.R")
+# Compile and install the patched package
+#install.packages("stargazer", repos = NULL, type="source")
+library(stargazer)
+#################################### 
+
 #table 2: yearly aid chnage IV, citytime 2000 models, no population variable
 stargazer(quasi_nopop_a_00,quasi_nopop_b_00,quasi_nopop_tot_00, 
           title="Quasi-Poisson Regression Results Using 2000 City Travel Times, No Population Variable", 
